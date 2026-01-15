@@ -25,14 +25,8 @@ exam_system/
 │   │   ├── __init__.py
 │   │   ├── session.py         # Async SQLAlchemy engine & session
 │   │   ├── base.py            # Declarative Base
-│   │   └── models/
-│   │       ├── __init__.py
-│   │       ├── user.py
-│   │       ├── exam.py
-│   │       ├── question.py
-│   │       ├── submission.py
-│   │       ├── answer.py
-│   │       └── result.py
+│   │   └── schema.py       # SQLAlchemy models
+│      
 │
 │   ├── schemas/
 │   │   ├── __init__.py
